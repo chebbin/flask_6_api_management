@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 import json
 
-app = Flask(__number__)
+app = Flask(__name__)
 
 @app.route('/calculation', methods=['GET'])
 def calculation_path():
